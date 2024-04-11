@@ -17,7 +17,7 @@ Before you start, make sure you have:
 => Step 2: Configure AWS Provider in Terraform
 - In your terraform code (practice.tf) file, add the following:
 
-# terraform.tf
+```JSON
 terraform {
   required_providers {
     aws = {
@@ -32,7 +32,7 @@ provider "aws" {
   access_key = "<YOUR_ACCESS_KEY>"
   secret_key = "<YOUR_SECRET_KEY>"
 }
-
+```
 
 # Step 3: Instance Configuration
 After creating the instance:
