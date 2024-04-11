@@ -1,3 +1,9 @@
+# Implement Terraform configuration for multi-tier AWS infrastructure: 
+Set up VPC, subnets, security groups, EC2 web server, and RDS database server. 
+Utilize Terraform modules for improved organization and reusability. 
+Implement best practices for network security and resource provisioning
+
+
 # Define variables
 variable "region" {
   default = "us-west-2"
