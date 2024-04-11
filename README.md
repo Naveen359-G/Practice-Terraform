@@ -43,5 +43,15 @@ After creating the instance:
 - Set a password for your chosen username with sudo passwd username.
 - Now you can SSH into the instance using the password.
 
-# Conclusion
-This guide shows how to set up a basic AWS infrastructure using Terraform. You can customize and expand this setup as needed.
+# This guide shows how to set up a basic AWS infrastructure using Terraform. You can customize and expand this setup as needed.
+
+# >> practice.tf 
+This Terraform code provisions an EC2 instance with a web server running on it, along with necessary networking configurations like VPC, subnet, and security groups. 
+Additionally, it creates an S3 bucket and configures IAM policies and roles to grant the EC2 instance access to the S3 bucket.
+
+# >> practice2.tf
+provisioning of a multi-tier application infrastructure on AWS, consisting of both a web server (EC2 instance) and a database server (RDS instance). 
+It highlights the setup of networking configurations such as VPC, subnets, and security groups, with an emphasis on implementing security best practices. 
+Additionally, it mentions the use of Terraform modules to organize the code for reusability, which is a good practice for managing infrastructure as code efficiently.
+
+
