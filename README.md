@@ -67,6 +67,11 @@ This Terraform code provisions a fault-tolerant and scalable infrastructure on A
 The EC2 instance's user data is updated to include commands for installing the MySQL client and creating a database on the RDS instance.
 Including a database in the infrastructure adds complexity but can significantly enhance the capabilities of the application.
 
-==================================================================================================================================================================================================================================
+# >> practice6.tf
+This Terraform code creates an S3 bucket for hosting the static website and configures it for static website hosting. 
+It then creates a CloudFront distribution to serve as a content delivery network (CDN) in front of the S3 bucket, enabling faster content delivery globally. 
+* Need to adjust the variables and configurations as needed for your specific website deployment.
+
+===============================================================================================================================================================================================================================
 
 
