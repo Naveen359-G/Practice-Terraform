@@ -50,8 +50,23 @@ This Terraform code provisions an EC2 instance with a web server running on it, 
 Additionally, it creates an S3 bucket and configures IAM policies and roles to grant the EC2 instance access to the S3 bucket.
 
 # >> practice2.tf
-provisioning of a multi-tier application infrastructure on AWS, consisting of both a web server (EC2 instance) and a database server (RDS instance). 
+This Terraform code Provisions a multi-tier application infrastructure on AWS, consisting of both a web server (EC2 instance) and a database server (RDS instance). 
 It highlights the setup of networking configurations such as VPC, subnets, and security groups, with an emphasis on implementing security best practices. 
 Additionally, it mentions the use of Terraform modules to organize the code for reusability, which is a good practice for managing infrastructure as code efficiently.
+
+# >> practice3.tf
+This Terraform code provisions a highly available architecture on AWS by creating an EC2 instance with Auto Scaling Group, Elastic Load Balancer (ELB), and RDS Multi-AZ deployment. 
+It sets up proper networking configurations with VPC, subnets, and security groups, and ensures fault tolerance and scalability for critical components of the application.
+
+# >> practice4.tf
+This Terraform code sets up infrastructure monitoring and logging using AWS CloudWatch. It creates EC2 instances with CloudWatch metric alarms for monitoring CPU and memory utilization. 
+Additionally, it creates a CloudWatch log group and stream for capturing logs from the EC2 instance. Finally, it configures the CloudWatch agent on the EC2 instance to send logs to the specified log group.
+
+# >> practice5.tf
+This Terraform code provisions a fault-tolerant and scalable infrastructure on AWS with an EC2 instance running Nginx, an RDS database, and sets up monitoring for the EC2 instance's CPU utilization.
+The EC2 instance's user data is updated to include commands for installing the MySQL client and creating a database on the RDS instance.
+Including a database in the infrastructure adds complexity but can significantly enhance the capabilities of the application.
+
+==================================================================================================================================================================================================================================
 
 
